@@ -1,0 +1,220 @@
+{
+    "message": "¡¡ Hola i18n !!",
+    "general": {
+        "BIDLargo": "Banco Interamericano de Desarrollo",
+        "BIDCorto": "BID",
+        "ultimaPublicacion": "Última Publicación: ",
+        "bienvenido": "¡Bienvenido!",
+        "cargando": "Cargando"
+    },
+    "rulesInput": {
+        "campoRequerido": "Campo requerido",
+        "minContrasenia": "La contraseña debe ser de mínimo 8 carácteres",
+        "emailRequerido": "Ingresa un correo electrónico valido",
+        "messageCamposObligatorios": "Completa todos los campos obligatorios",
+        "messageAsignaPermiso": "Asigna por lo menos un permiso",
+        "messageNoExcederCaracteres": "El comentario NO debe exceder los 250 caracteres",
+        "messageContraseniaConfirm": "Las contraseñas deben coincidir",
+        "messageSeleccionaPais": "Selecciona al menos 1 país"
+    },
+    "hints": {
+        "email": "Ej. ejemplo@mail.com"
+    },
+    "labels": {
+        "nombre": "Nombre Completo",
+        "email": "Correo Electrónico",
+        "contrasenia": "Contraseña",
+        "confirmContrasenia": "Confirmación de Contraseña",
+        "buscar": "Buscar",
+        "seleccionarArchivoCSV": "Selecciona tu archivo (csv)",
+        "seleccionarArchivoPDF": "Selecciona tu archivo (pdf)",
+        "agregarComentario": "Agrega un comentario a tu publicación",
+        "lectura": "Lectura",
+        "escritura": "Escritura",
+        "superAdmin": "Súper Administrador",
+        "pais": "País(es)",
+        "area": "Área",
+        "tema": "Tema",
+        "indicador": "Indicador",
+        "unidad": "Unidad",
+        "periodo": "Periodo",
+        "referencia": "Referencia"
+    },
+    "homeUser": {
+        "lmwTitle": "Latin Macro Watch",
+        "baseDatosTitle": "Base de Datos",
+        "graficosTitle": "Gráficos Dinámicos",
+        "metadataTitle": "Metadata",
+        "lmw": "Latin Macro Watch (LMW) es una base de datos de indicadores macroeconómicos y financieros. LMW proporciona indicadores sobre la actividad económica, las cuentas fiscales y externas, los mercados financieros y la deuda pública utilizando fuentes oficiales de cada país. LMW incluye datos históricos que comienzan en 1990 que cubre todos los 26 países miembros prestatarios del BID.",
+        "baseDatos": "Nuestra base de datos cuenta con la opción de seleccionar y descargar indicadores y periodos específicos según las necesidades de cada usuario, también podrá ser descargada en su totalidad en formato xls y csv.",
+        "graficos": "Crea un gráfico descargable con los indicadores disponibles en LMW.",
+        "metadata": "Descargue el documento descriptivo de la base."
+    },
+    "appBar": {
+        "datos": "Datos",
+        "graficos": "Gráficos",
+        "metadata": "Metadata"
+    },
+    "contactButton": {
+        "titulo": "Dejar Comentario",
+        "text": "Deje sus comentarios, dudas o sugerencias para mejorar la experiencia en Latin Macro Watch.",
+        "dejaComentario": "Deja tu comentario...",
+        "contacto": "Si deseas contactarte con un administrador, envía un correo a: ",
+        "enviar": "Enviar",
+        "comentarioEnviado": "¡El comentario se envió de forma exitosa!"
+    },
+    "loginAdmin": {
+        "instrucciones": "Ingresa tus datos de acceso como Administrador",
+        "recuperarContrasenia": "Recuperar Contraseña",
+        "iniciarSesion": "Iniciar Sesión"
+    },
+    "homeAdmin": {
+        "datos": "Datos",
+        "admin": "Administrador",
+        "superAdmin": "Súper Administrador",
+        "agregarDatos": "Agregar Datos",
+        "reemplazarDatos": "Reemplazar Datos",
+        "publicaciones": "Publicaciones",
+        "comentarios": "Comentarios",
+        "paises": "Layout Países",
+        "metadata": "Metadata",
+        "administradores": "Administradores",
+        "cerrarSesion": "Cerrar Sesión"
+    },
+    "createPassword": {
+        "text": "Acontinuación genera una nueva contraseña para poder ingresar como Administrador de Latin Macro Watch",
+        "generarContrasenia": "Generar Contraseña",
+        "contraseniaActualizada": "¡Tu contraseña ha sido actualizada con éxito!"
+    },
+    "recoverPasswordDialog": {
+        "titulo": "Recuperar Contraseña",
+        "text": "Ingresa el correo eléctronico con el que estas dado de alta en Latin Macro Watch.",
+        "recuperar": "Recuperar",
+        "messageSend": "Se ha envíado un correo para reestablecer tu contraseña."
+    },
+    "agregarDatos": {
+        "text": "Agrega nuevas filas a la base de datos actual.",
+        "subirArchivo": "Subir Archivo",
+        "publicarCambios": "Publicar Cambios",
+        "archivoCargadoExito": "¡Se ha cargado el archivo de manera exitosa!",
+        "archivoCargadoError": "Error: El archivo no pudo ser procesado correctamente"
+    },
+    "reemplazarDatos": {
+        "text": "Al cargar una Nueva Base se eliminará automáticamente la anterior.",
+        "subirArchivo": "Subir Archivo",
+        "publicarCambios": "Publicar Cambios",
+        "archivoCargadoExito": "¡Se ha cargado el archivo de manera exitosa!",
+        "archivoCargadoError": "Error: El archivo no pudo ser procesado correctamente"
+    },
+    "confirmDialog": {
+        "reemplazarTitle": "Reemplazar Datos",
+        "reemplazarText": "¿Estás seguro de querer reemplazar la Base de Datos?",
+        "reemplazarText2": "Al dar clic en aceptar, se eliminará automáticamente la Base de Datos previamente cargada.",
+        "reemplazarMessageSuccess": "¡Se han actualizado la base de datos de manera exitosa!",
+        "reemplazarMessageError": "Error: La base de datos no pudo ser reemplazar correctamente",
+        "agregarTitle": "Agregar Datos",
+        "agregarText": "¿Estás seguro de querer agregar los datos a la Base de Datos?",
+        "agregarText2": "Al dar clic en aceptar, se agregaran los datos a la Base de Datos actual.",
+        "agregarMessageSuccess": "¡Se han agregado los datos de manera exitosa!",
+        "agregarMessageError": "Error: La base de datos no pudo ser agregada correctamente",
+        "eliminarTitle": "Eliminar Administrador",
+        "eliminarText": "¿Estás seguro de eliminar al siguiente Administrador?",
+        "eliminarId": "Id Admin: ",
+        "eliminarNombre": "Nombre completo: ",
+        "eliminarCorreo": "Correo: ",
+        "eliminarPerfil": "Perfil: ",
+        "eliminarFecha": "Fecha de Registro: ",
+        "eliminarPermisos": "Permisos: ",
+        "eliminarMessageSuccess": "¡Se han eliminado al administrador de manera exitosa!",
+        "restoreTitle:": "Restaurar Base de Datos",
+        "restoreSubtitle": "Restaurar Base de Datos",
+        "restoreText": "¿Estás seguro de querer restaurar la Base de Datos?",
+        "restoreText2": "Al dar clic en aceptar, se eliminará automáticamente la Base de Datos previamente cargada y se cargará la siguiente versión.",
+        "restoreFechaPublicacion": "Fecha de Publicación: ",
+        "restoreIdPublicacion": "Id Publicación: ",
+        "restorePublicadoPor": "Publicado por: ",
+        "restoreTipo": "Tipo de Publicación: ",
+        "restoreComentario": "Comentario: ",
+        "restoreMessageSuccess": "¡Se ha restaurado la base de datos de manera exitosa!",
+        "cancelar": "Cancelar",
+        "aceptar": "Aceptar"
+    },
+    "publicaciones": {
+        "restaurar": "Restaurar",
+        "descargarCSV": "Descargar CSV",
+        "fechaPublicacion": "Fecha de Publicación",
+        "idPublicacion": "Id Publicación",
+        "publicadoPor": "Publicado por",
+        "tipo": "Tipo de Publicación",
+        "comentario": "Comentario",
+        "acciones": "Acciones"
+    },
+    "comentarios": {
+        "leido": "Marcar como leído",
+        "descargarCSV": "Descargar CSV",
+        "eliminar": "Eliminar",
+        "fechaComentario": "Fecha",
+        "comentario": "Comentario",
+        "comentariosDescarga": "Comentarios_",
+        "comentariosEliminados": "¡Comentario(s) eliminado(s) con éxito!"
+    },
+    "metadata": {
+        "text": "Sube la nueva versión del archivo de Metadata.",
+        "subirArchivo": "Subir Archivo",
+        "archivoCargadoExito": "¡Se ha cargado el archivo de manera exitosa!"
+    },
+    "newAdminDialog": {
+        "titulo": "Agregar Administrador",
+        "text": "Ingresa los datos del administrador que quieras agregar al proyecto.",
+        "permisos": "Permisos",
+        "agregar": "Agregar",
+        "correoEnviado": "Se ha envíado un correo al nuevo colaborador.",
+        "actualizar": "Actualizar"
+    },
+    "paises": {
+        "pais": "Pais",
+        "bandera": "Bandera",
+        "color": "Color",
+        "acciones": "Acciones"
+    },
+    "editPaisDialog": {
+        "titulo": "Editar Pais",
+        "text": "Selecciona el color más apropiado para el siguiente pais.",
+        "actualizar": "Actualizar",
+        "actualizarSuccessMessage": "¡Se ha actualizado el pais de manera exitosa!"
+    },
+    "latinMacroWatchDatos": {
+        "text": "Seleccione los indicadores, periodos y países para visualizarlos en formato de tabla. Es posible descargar la tabla de datos personalizada.",
+        "descargarDataset": "Descargar Dataset Completo",
+        "copyReference": "Copiar referencia",
+        "copiedReference": "Copiado en el Portapapeles",
+        "generarConsulta": "Generar Consulta",
+        "descargarSeleccion": "Descargar Selección"
+    },
+    "lmwdArbol": {
+        "selectorIndicadoresTitle": "Selector de Indicadores",
+        "agregarIndicadores": "Da click para agregar Indicadores",
+        "seleccionarTodo": "Seleccionar todo"
+    },
+    "latinMacroWatchGraficos": {
+        "text": "Seleccione uno a uno los indicadores, periodos y países que desee graficar. Puede seleccionar tipos de gráfico diferentes y descargar tanto el gráfico personalizado como los datos utilizados.",
+        "descargarDataset": "Descargar Dataset Completo",
+        "generarGrafica": "Generar Gráfico",
+        "descarga": "Descarga",
+        "graficoPNG": "Gráfico PNG",
+        "graficoJPG": "Gráfico JPG",
+        "seleccionCSV": "Selección CSV",
+        "grafico": "Gráfico",
+        "datos": "Datos"
+    },
+    "selectorIndicadorLMWG": {
+        "indicador1": "Primer indicador",
+        "indicador2": "Segundo indicador",
+        "barras": "Gráfico de Barras",
+        "lineas": "Gráfico de Lineas",
+        "dispercion": "Gráfico de Dispersión",
+        "mapa": "Gráfico de Mapa",
+        "eliminar": "Eliminar Indicador",
+        "agregar": "Agregar Indicador"
+    }
+}

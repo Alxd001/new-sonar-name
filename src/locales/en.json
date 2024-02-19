@@ -1,0 +1,220 @@
+{
+    "message": "hello i18n !!",
+    "general": {
+        "BIDLargo": "Inter-American Development Bank",
+        "BIDCorto": "IDB",
+        "ultimaPublicacion": "Latest publication: ",
+        "bienvenido": "Welcome!",
+        "cargando": "Loading"
+    },
+    "rulesInput": {
+        "campoRequerido": "Required field",
+        "minContrasenia": "Password must be at least 8 characters",
+        "emailRequerido": "Enter a valid e-mail",
+        "messageCamposObligatorios": "Complete all required fields",
+        "messageAsignaPermiso": "Assign at least one permission",
+        "messageNoExcederCaracteres": "Your comment must not exceed 250 characters",
+        "messageContraseniaConfirm": "Passwords must match",
+        "messageSeleccionaPais": "Select at least 1 country"
+    },
+    "hints": {
+        "email": "e.g. example@mail.com"
+    },
+    "labels": {
+        "nombre": "Full Name",
+        "email": "E-mail",
+        "contrasenia": "Password",
+        "confirmContrasenia": "Confirm Password",
+        "buscar": "Search",
+        "seleccionarArchivoCSV": "Select your file (CSV)",
+        "seleccionarArchivoPDF": "Select your file (PDF)",
+        "agregarComentario": "Add a comment to your post",
+        "lectura": "Read",
+        "escritura": "Write",
+        "superAdmin": "Super Administrator",
+        "pais": "Countries",
+        "area": "Area",
+        "tema": "Tema",
+        "indicador": "Indicator",
+        "unidad": "Unidad",
+        "periodo": "Time period",
+        "referencia": "Reference"
+    },
+    "homeUser": {
+        "lmwTitle": "Latin Macro Watch",
+        "baseDatosTitle": "Database",
+        "graficosTitle": "Charts",
+        "metadataTitle": "Metadata",
+        "lmw": "Latin Macro Watch (LMW) is a database of macroeconomic and financial indicators. LMW provides indicators on economic activity, fiscal and external accounts, financial markets, and public debt from official sources. LMW includes historical data beginning in 1990 covering all 26 IDB borrowing member countries.",
+        "baseDatos": "Our database has the option of selecting and downloading indicators and specific periods according to the needs of each user, it can also be fully downloaded in XLS and CSV formats.",
+        "graficos": "Create a dynamic chart with LMW available data.",
+        "metadata": "Download the database descriptive document."
+    },
+    "appBar": {
+        "datos": "Data",
+        "graficos": "Charts",
+        "metadata": "Metadata"
+    },
+    "contactButton": {
+        "titulo": "Leave Comment",
+        "text": "Send your comments, questions or suggestions to improve the experience in Latin Macro Watch.",
+        "dejaComentario": "Write down your comment...",
+        "contacto": "If you want to contact an administrator, send us an e-mail: ",
+        "enviar": "Send",
+        "comentarioEnviado": "The comment has been sent successfully!"
+    },
+    "loginAdmin": {
+        "instrucciones": "Enter your Administrator information to access",
+        "recuperarContrasenia": "Recover password",
+        "iniciarSesion": "Log in"
+    },
+    "homeAdmin": {
+        "datos": "Data",
+        "admin": "Administrator",
+        "superAdmin": "Super Administrator",
+        "agregarDatos": "Add Data",
+        "reemplazarDatos": "Replace Data",
+        "publicaciones": "Publications",
+        "comentarios": "Comments",
+        "paises": "Countries Layout",
+        "metadata": "Metadata",
+        "administradores": "Administrators",
+        "cerrarSesion": "Log out"
+    },
+    "createPassword": {
+        "text": "Generate a new password to enter as an Administrator to Latin Macro Watch",
+        "generarContrasenia": "Generate Password",
+        "contraseniaActualizada": "Your password has been updated successfully!"
+    },
+    "recoverPasswordDialog": {
+        "titulo": "Recover password",
+        "text": "Please enter your registered Latin Macro Watch e-mail.",
+        "recuperar": "Recover",
+        "messageSend": "An e-mail has been sent to reset your password."
+    },
+    "agregarDatos": {
+        "text": "Add rows to current Database.",
+        "subirArchivo": "Upload file",
+        "publicarCambios": "Publish changes",
+        "archivoCargadoExito": "The file has been uploaded successfully!",
+        "archivoCargadoError": "Error: The file could not be processed correctly"
+    },
+    "reemplazarDatos": {
+        "text": "Loading a new Database will automatically delete the previous one",
+        "subirArchivo": "Upload file",
+        "publicarCambios": "Publish changes",
+        "archivoCargadoExito": "The file has been uploaded successfully!",
+        "archivoCargadoError": "Error: The file could not be processed correctly"
+    },
+    "confirmDialog": {
+        "reemplazarTitle": "Replace data",
+        "reemplazarText": "Are you sure you want to replace the current Database?",
+        "reemplazarText2": "By clicking accept, the previous Database will be automatically deleted.",
+        "reemplazarMessageSuccess": "The Database has been updated successfully!",
+        "reemplazarMessageError": "Error: The Database could not be replaced correctly.",
+        "agregarTitle": "Add data",
+        "agregarText": "Are you sure you want to add data to the current Database?",
+        "agregarText2": "By clicking accept, the new data will be added to the current Database.",
+        "agregarMessageSuccess": "The new data has been added successfully!",
+        "agregarMessageError": "Error: The data could not be added correctly.",
+        "eliminarTitle": "Delete Administrator",
+        "eliminarText": "Are you sure you want to delete this Administrator?",
+        "eliminarId": "Id Admin: ",
+        "eliminarNombre": "Full name: ",
+        "eliminarCorreo": "E-mail: ",
+        "eliminarPerfil": "Profile: ",
+        "eliminarFecha": "Registration date: ",
+        "eliminarPermisos": "Permissions: ",
+        "eliminarMessageSuccess": "The Administrator has been removed successfully!",
+        "restoreTitle:": "Restore Database",
+        "restoreSubtitle": "Restore Database",
+        "restoreText": "Are you sure you want to restore Database",
+        "restoreText2": "By clicking on accept, the previously  Database will be automatically deleted and the new version will be loaded.",
+        "restoreFechaPublicacion": "Publication date: ",
+        "restoreIdPublicacion": "Publication ID: ",
+        "restorePublicadoPor": "Published by: ",
+        "restoreTipo": "Publication type: ",
+        "restoreComentario": "Comment: ",
+        "restoreMessageSuccess": "The Database has been restored successfully!",
+        "cancelar": "Cancel",
+        "aceptar": "Accept"
+    },
+    "publicaciones": {
+        "restaurar": "Restore",
+        "descargarCSV": "Download CSV",
+        "fechaPublicacion": "Publication date",
+        "idPublicacion": "Publication ID",
+        "publicadoPor": "Published by",
+        "tipo": "Tipo de Publicación",
+        "comentario": "Comment",
+        "acciones": "Actions"
+    },
+    "comentarios": {
+        "leido": "Mark as read",
+        "descargarCSV": "Download CSV",
+        "eliminar": "Delete",
+        "fechaComentario": "Date",
+        "comentario": "Comment",
+        "comentariosDescarga": "Comments_",
+        "comentariosEliminados": "Comment(s) deleted successfully!"
+    },
+    "metadata": {
+        "text": "Upload the new version of the Metadata file.",
+        "subirArchivo": "Upload file",
+        "archivoCargadoExito": "The file has been uploaded successfully!"
+    },
+    "newAdminDialog": {
+        "titulo": "Add Administrator",
+        "text": "Add required information of the new Administrator",
+        "permisos": "Permissions",
+        "agregar": "Add",
+        "correoEnviado": "An e-mail has been sent to the new Administrator.",
+        "actualizar": "Update"
+    },
+    "paises": {
+        "pais": "Country",
+        "bandera": "Flag",
+        "color": "Color",
+        "acciones": "Actions"
+    },
+    "editPaisDialog": {
+        "titulo": "Edit Country",
+        "text": "Select a color for this country",
+        "actualizar": "Update",
+        "actualizarSuccessMessage": "Country layout has been updated successfully!"
+    },
+    "latinMacroWatchDatos": {
+        "text": "Select indicators, periods and countries to visualize in table format. You can add as many indicators as needed. The customized data table can be downloaded.",
+        "descargarDataset": "Download complete Dataset",
+        "copyReference": "Copy reference",
+        "copiedReference": "Copiado en el Portapapeles",
+        "generarConsulta": "Generate consult",
+        "descargarSeleccion": "Download CSV selection"
+    },
+    "lmwdArbol": {
+        "selectorIndicadoresTitle": "Indicator selector",
+        "agregarIndicadores": "Click to add Indicators",
+        "seleccionarTodo": "Select all"
+    },
+    "latinMacroWatchGraficos": {
+        "text": "Select indicators and countries to visualize them in a chart. You can select the time frame and chart type. The customized graph and data can be downloaded.",
+        "descargarDataset": "Download complete Dataset",
+        "generarGrafica": "Create graph",
+        "descarga": "Download",
+        "graficoPNG": "PNG graph",
+        "graficoJPG": "JPG graph",
+        "seleccionCSV": "CSV selection",
+        "grafico": "Graph",
+        "datos": "Data"
+    },
+    "selectorIndicadorLMWG": {
+        "indicador1": "Indicator 1",
+        "indicador2": "Indicator 2",
+        "barras": "Bar graph",
+        "lineas": "Line graph",
+        "dispercion": "Scatter graph",
+        "mapa": "Map",
+        "eliminar": "Delete Indicator",
+        "agregar": "Add Indicator"
+    }
+}
